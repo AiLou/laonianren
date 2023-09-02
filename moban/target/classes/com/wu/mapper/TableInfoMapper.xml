@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wu.mapper.TableInfoMapper">
+    <select id="getbytype" resultType="TableInfo">
+        select name as zcmc,organ as fwjg,pubdata as bbrq,type as zcfl from policy where type = #{type};
+    </select>
+    <select id="gettextbymc" resultType="string">
+        select text from policy where name = #{name};
+    </select>
+    <select id="getnumByType" resultType="string">
+        select count(*) from policy where type = #{type};
+    </select>
+</mapper>

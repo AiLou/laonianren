@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="smbms-mvc:war">
+    <output-path>$PROJECT_DIR$/moban/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>smbms-mvc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="smbms-mvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="smbms-mvc:war exploded" />
+    </root>
+  </artifact>
+</component>

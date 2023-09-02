@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="smbms-mvc:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41e741f8-fcef-4f17-a9fc-f7a3ca2f2f2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smbms-mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/BillController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/UserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/controller/UserManagementControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/mapper/BillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/mapper/ProviderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/pojo/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/pojo/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/BillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/utils/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wu/utils/PageSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wu/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/billadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/billlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/billmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/billview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/provideradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/providerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/providermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/providerview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pwdmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/rollpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/usermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/calendar/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/billadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/billlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/billmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/billview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/provideradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/providerlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/providermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/providerview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/pwdmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/useradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/userlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/usermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/userview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wu/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/controller/BillController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/controller/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/controller/ProviderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/dao/SmbmsAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/dao/SmbmsBillMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/dao/SmbmsProviderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/dao/SmbmsRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/dao/SmbmsUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/datasource/SingleDataSourceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/pojo/SmbmsAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/pojo/SmbmsBill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/pojo/SmbmsProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/pojo/SmbmsRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/pojo/SmbmsUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/BillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/Impl/BillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/Impl/ProviderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/Impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/ProviderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/java/com/elead/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/mapper/SmbmsAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/mapper/SmbmsBillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/mapper/SmbmsProviderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/mapper/SmbmsRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/resources/mapper/SmbmsUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/billadd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/billlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/billmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/billview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/common/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/common/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/frame.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/provideradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/providerlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/providermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/providerview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/pwdmodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/rollpage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/useradd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/userlist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/usermodify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/jsp/userview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/WdatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/lang/zh-tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/WdatePicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/datePicker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/default/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/default/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/whyGreen/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/whyGreen/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/calendar/skin/whyGreen/img.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/css/public.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/buy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/clock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/formBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/gys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/leftBg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/loginBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/login_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/mm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/read.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/schu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/tc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/tianjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/time.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/xiugai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/yh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/images/zd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/billadd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/billlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/billmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/billview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/provideradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/providerlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/providermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/providerview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/pwdmodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/rollpage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/useradd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/userlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/usermodify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/src/main/webapp/static/js/userview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/controller/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/controller/PageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/controller/ProviderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/dao/SmbmsAddressMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/dao/SmbmsBillMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/dao/SmbmsProviderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/dao/SmbmsRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/dao/SmbmsUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/datasource/SingleDataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/pojo/SmbmsAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/pojo/SmbmsBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/pojo/SmbmsProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/pojo/SmbmsRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/pojo/SmbmsUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/Impl/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/Impl/ProviderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/Impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/ProviderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/com/elead/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/mapper/SmbmsAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/mapper/SmbmsBillMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/mapper/SmbmsProviderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/mapper/SmbmsRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/target/classes/mapper/SmbmsUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/项目信息/smbms.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SMBMS/项目信息/项目信息.doc" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1nXmU2fKQLZg5pbdLbAgoOk7SAc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qita/hangban/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\IdeaProject\smbms-mvc\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\IdeaProject\smbms-mvc\src\main\java\com\wu\utils" />
+      <recent name="D:\IDEA\IdeaProject\smbms-mvc\src\main\webapp" />
+      <recent name="D:\IDEA\IdeaProject\smbms-mvc\src\main\resources" />
+      <recent name="D:\IDEA\IdeaProject\smbms-mvc\src\main\java\com\wu\pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smbms-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wu" />
+      <option name="MAIN_CLASS_NAME" value="com.wu.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17.0.2">
+      <option name="COMMON_VM_ARGUMENTS" value="--add-opens java.base/java.lang=ALL-UNNAMED" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="smbms-mvc:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/smbms_mvc_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_smbms-mvc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55863" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smbms-mvc:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyTest.test" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\29216\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41e741f8-fcef-4f17-a9fc-f7a3ca2f2f2c" name="Default Changelist" comment="" />
+      <created>1611544821858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611544821858</updated>
+      <workItem from="1611544822918" duration="37626000" />
+      <workItem from="1611625277924" duration="27679000" />
+      <workItem from="1666239503901" duration="2340000" />
+      <workItem from="1666246124623" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1666246050964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1666246050964" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1666246152926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666246152926" />
+    <state width="1024" height="464" key="GridCell.Tab.0.bottom" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.0.center" timestamp="1666246053660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1666246053660" />
+    <state width="1024" height="464" key="GridCell.Tab.0.left" timestamp="1666246053660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1666246053660" />
+    <state width="1024" height="464" key="GridCell.Tab.0.right" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.1.bottom" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.1.center" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.1.left" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.1.right" timestamp="1666246053661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1666246053661" />
+    <state width="1024" height="464" key="GridCell.Tab.2.bottom" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.2.center" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.2.left" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.2.right" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.3.bottom" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.3.center" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.3.left" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state width="1024" height="464" key="GridCell.Tab.3.right" timestamp="1666246053662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="464" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1666246053662" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1666240276836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1666240276836" />
+    <state x="457" y="167" width="621" height="490" key="find.popup" timestamp="1666239594828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="167" width="621" height="490" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1666239594828" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1666245768135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1666245768135" />
+    <state x="472" y="105" key="spring file set editor" timestamp="1666239877059">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1666239877059" />
+  </component>
+</project>
